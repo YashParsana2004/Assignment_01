@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Task_1.aspx" />
     <Content Include="Task_2.aspx" />
+    <Content Include="Task_3.aspx" />
     <Content Include="Task_4.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -87,6 +88,13 @@
     </Compile>
     <Compile Include="Task_2.aspx.designer.cs">
       <DependentUpon>Task_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Task_3.aspx.cs">
+      <DependentUpon>Task_3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Task_3.aspx.designer.cs">
+      <DependentUpon>Task_3.aspx</DependentUpon>
     </Compile>
     <Compile Include="Task_4.aspx.cs">
       <DependentUpon>Task_4.aspx</DependentUpon>
